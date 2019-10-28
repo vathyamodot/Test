@@ -1,8 +1,8 @@
 version: '3'
 services:
-  web:
+  devops_test:
     build: .
     ports:
-     - "8059:5000"
+     - "8057:5000"
   redis:
     image: "redis:alpine"

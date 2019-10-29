@@ -1,0 +1,8 @@
+version: '3'
+services:
+  devops_test:
+    image: IMG_NAME
+    ports:
+     - "8057:5000"
+  redis:
+    image: "redis:alpine"

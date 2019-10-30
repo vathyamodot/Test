@@ -1,6 +1,6 @@
 version: '3.7'
 services:
-  git_devops:
+  web:
     image: IMG_NAME
     ports:
      - "8057:5000"

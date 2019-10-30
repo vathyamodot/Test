@@ -1,6 +1,6 @@
 version: '3.7'
 services:
-  devops_test:
+  git_devops:
     image: IMG_NAME
     ports:
      - "8057:5000"
